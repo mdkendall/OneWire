@@ -1,7 +1,8 @@
 var searchData=
 [
+  ['read_5fmemory',['READ_MEMORY',['../_d_s2431_8cpp.html#a0278e850bacc90b98cb46de73049577fa9c3f0e5bd4515877fc7efa89d715c699',1,'DS2431.cpp']]],
   ['read_5fpower_5fsuppy',['READ_POWER_SUPPY',['../_d_s18_b20_8cpp.html#ab572ece8a85d1d6698d21f1099007739a9660a27b6621498ca384d0e3e3259ecb',1,'DS18B20.cpp']]],
-  ['read_5fscratchpad',['READ_SCRATCHPAD',['../_d_s18_b20_8cpp.html#ab572ece8a85d1d6698d21f1099007739a3b66d5a861d08cb8b32618183ca1d0a3',1,'READ_SCRATCHPAD():&#160;DS18B20.cpp'],['../_d_s1920_8cpp.html#ab888bd9b8213b85f22b9010ca44917fba3b66d5a861d08cb8b32618183ca1d0a3',1,'READ_SCRATCHPAD():&#160;DS1920.cpp']]],
+  ['read_5fscratchpad',['READ_SCRATCHPAD',['../_d_s2431_8cpp.html#a0278e850bacc90b98cb46de73049577fa3b66d5a861d08cb8b32618183ca1d0a3',1,'READ_SCRATCHPAD():&#160;DS2431.cpp'],['../_d_s18_b20_8cpp.html#ab572ece8a85d1d6698d21f1099007739a3b66d5a861d08cb8b32618183ca1d0a3',1,'READ_SCRATCHPAD():&#160;DS18B20.cpp'],['../_d_s1920_8cpp.html#ab888bd9b8213b85f22b9010ca44917fba3b66d5a861d08cb8b32618183ca1d0a3',1,'READ_SCRATCHPAD():&#160;DS1920.cpp']]],
   ['readconfigurationcmd',['ReadConfigurationCmd',['../_d_s28_e17_8cpp.html#a2afce0a47a93eee73a314d53e4890153a29a4e3dd02bd83ada3b2098c16a939bb',1,'DS28E17.cpp']]],
   ['readdatareg',['ReadDataReg',['../class_one_wire_1_1_d_s248x.html#a72e4e151091cd38289003f0d42eed30ea03cc4b739a4026a7ef10cf841cac4ec2',1,'OneWire::DS248x']]],
   ['readdatawithstopcmd',['ReadDataWithStopCmd',['../_d_s28_e17_8cpp.html#a2afce0a47a93eee73a314d53e4890153ac26e854c3fedf448d8acd535dee0b6de',1,'DS28E17.cpp']]],

@@ -5,6 +5,7 @@ var namespace_one_wire =
     [ "DS18B20", "class_one_wire_1_1_d_s18_b20.html", "class_one_wire_1_1_d_s18_b20" ],
     [ "DS1920", "class_one_wire_1_1_d_s1920.html", "class_one_wire_1_1_d_s1920" ],
     [ "DS2413", "class_one_wire_1_1_d_s2413.html", "class_one_wire_1_1_d_s2413" ],
+    [ "DS2431", "class_one_wire_1_1_d_s2431.html", "class_one_wire_1_1_d_s2431" ],
     [ "DS2484", "class_one_wire_1_1_d_s2484.html", "class_one_wire_1_1_d_s2484" ],
     [ "DS248x", "class_one_wire_1_1_d_s248x.html", "class_one_wire_1_1_d_s248x" ],
     [ "DS28E17", "class_one_wire_1_1_d_s28_e17.html", "class_one_wire_1_1_d_s28_e17" ],

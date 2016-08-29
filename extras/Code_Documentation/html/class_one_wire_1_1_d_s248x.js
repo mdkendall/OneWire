@@ -20,8 +20,8 @@ var class_one_wire_1_1_d_s248x =
       [ "PortConfigReg", "class_one_wire_1_1_d_s248x.html#a72e4e151091cd38289003f0d42eed30ea95d909c0d90674d058490fd5c6970e8f", null ],
       [ "ChannelSelectReg", "class_one_wire_1_1_d_s248x.html#a72e4e151091cd38289003f0d42eed30eace70a9f8946621e5dedc59b0feb6c27e", null ]
     ] ],
-    [ "DS248x", "class_one_wire_1_1_d_s248x.html#a49de1d8f069c4898d01144b5f88399f2", null ],
-    [ "begin", "class_one_wire_1_1_d_s248x.html#a31b46a540839582d0d74ed717f615faa", null ],
+    [ "DS248x", "class_one_wire_1_1_d_s248x.html#a985a2a6b7941d82cd5e6bfff143f344a", null ],
+    [ "begin", "class_one_wire_1_1_d_s248x.html#a3bbecddcef4ec03f5d4155a821b21526", null ],
     [ "configureLevel", "class_one_wire_1_1_d_s248x.html#a959848e1683a9497cc5074b1d50cea27", null ],
     [ "currentConfig", "class_one_wire_1_1_d_s248x.html#a86b45c657fea01d17c9acdfc53c614d2", null ],
     [ "end", "class_one_wire_1_1_d_s248x.html#aae5a1c3624e6b9b6fa46c6cd6523a745", null ],

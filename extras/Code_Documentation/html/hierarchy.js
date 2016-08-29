@@ -12,6 +12,7 @@ var hierarchy =
       [ "OneWire::DS18B20", "class_one_wire_1_1_d_s18_b20.html", null ],
       [ "OneWire::DS1920", "class_one_wire_1_1_d_s1920.html", null ],
       [ "OneWire::DS2413", "class_one_wire_1_1_d_s2413.html", null ],
+      [ "OneWire::DS2431", "class_one_wire_1_1_d_s2431.html", null ],
       [ "OneWire::DS28E17", "class_one_wire_1_1_d_s28_e17.html", null ]
     ] ],
     [ "OneWire::RomId", "class_one_wire_1_1_rom_id.html", null ],

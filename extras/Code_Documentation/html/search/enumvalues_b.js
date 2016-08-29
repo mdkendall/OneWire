@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['write_5fscratchpad',['WRITE_SCRATCHPAD',['../_d_s18_b20_8cpp.html#ab572ece8a85d1d6698d21f1099007739a4bc47e9a7896ab51a7cdf961067b16a3',1,'WRITE_SCRATCHPAD():&#160;DS18B20.cpp'],['../_d_s1920_8cpp.html#ab888bd9b8213b85f22b9010ca44917fba4bc47e9a7896ab51a7cdf961067b16a3',1,'WRITE_SCRATCHPAD():&#160;DS1920.cpp']]],
+  ['write_5fscratchpad',['WRITE_SCRATCHPAD',['../_d_s2431_8cpp.html#a0278e850bacc90b98cb46de73049577fa4bc47e9a7896ab51a7cdf961067b16a3',1,'WRITE_SCRATCHPAD():&#160;DS2431.cpp'],['../_d_s18_b20_8cpp.html#ab572ece8a85d1d6698d21f1099007739a4bc47e9a7896ab51a7cdf961067b16a3',1,'WRITE_SCRATCHPAD():&#160;DS18B20.cpp'],['../_d_s1920_8cpp.html#ab888bd9b8213b85f22b9010ca44917fba4bc47e9a7896ab51a7cdf961067b16a3',1,'WRITE_SCRATCHPAD():&#160;DS1920.cpp']]],
   ['writeconfigurationcmd',['WriteConfigurationCmd',['../_d_s28_e17_8cpp.html#a2afce0a47a93eee73a314d53e4890153ae728039c7f2f3fbfb1dee7f6b24e9ec5',1,'DS28E17.cpp']]],
   ['writedatanostopcmd',['WriteDataNoStopCmd',['../_d_s28_e17_8cpp.html#a2afce0a47a93eee73a314d53e4890153a1613316c460a04060d75e60b9c63a19c',1,'DS28E17.cpp']]],
   ['writedataonlycmd',['WriteDataOnlyCmd',['../_d_s28_e17_8cpp.html#a2afce0a47a93eee73a314d53e4890153a2d1b041b19c46ef7a337924aa89f2740',1,'DS28E17.cpp']]],
