@@ -36,6 +36,7 @@
 
 //#include "OneWire/Slaves/Authenticators/Authenticators.h"
 #include "Slaves/Bridges/Bridges.h"
+#include "Slaves/Memory/Memory.h"
 #include "Slaves/Sensors/Sensors.h"
 #include "Slaves/Switches/Switches.h"
 
