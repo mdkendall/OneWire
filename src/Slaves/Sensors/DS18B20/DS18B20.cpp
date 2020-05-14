@@ -169,14 +169,15 @@ OneWireSlave::CmdResult DS18B20::copyScratchPad( void )
                 owmResult = master().OWWriteByteSetLevel(COPY_SCRATCHPAD, OneWireMaster::NormalLevel); 
                 if (owmResult == OneWireMaster::Success)
                 {
-                    uint8_t recvbit = 0;
+                    uint8_t recvbit;
                     do
                     {
+                        recvbit = 1;
                         owmResult = master().OWTouchBitSetLevel(recvbit, OneWireMaster::NormalLevel);
                     }
                     while((!recvbit) && (owmResult == OneWireMaster::Success));
                     
-                    if ((owmResult == OneWireMaster::Success) && (recvbit & 1))
+                    if ((owmResult == OneWireMaster::Success) && !!recvbit)
                     {
                         deviceResult = OneWireSlave::Success;
                     }
