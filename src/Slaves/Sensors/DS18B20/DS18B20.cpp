@@ -128,12 +128,12 @@ OneWireSlave::CmdResult DS18B20::readPowerSupply(bool & localPower)
         owmResult = master().OWWriteByteSetLevel(READ_POWER_SUPPY, OneWireMaster::NormalLevel);
         if(owmResult == OneWireMaster::Success)
         {
-            uint8_t rtnBit = 0;
+            uint8_t rtnBit = 1;
             
             owmResult = master().OWTouchBitSetLevel(rtnBit, OneWireMaster::NormalLevel);
             if(owmResult == OneWireMaster::Success)
             {
-                localPower = (rtnBit & 0x01);
+                localPower = !!rtnBit;
                 deviceResult = OneWireSlave::Success;
             }
             else
@@ -242,14 +242,15 @@ OneWireSlave::CmdResult DS18B20::convertTemperature(float & temp)
                 owmResult = master().OWWriteByteSetLevel(CONV_TEMPERATURE, OneWireMaster::NormalLevel); 
                 if (owmResult == OneWireMaster::Success)
                 {
-                    uint8_t recvbit = 0;
+                    uint8_t recvbit;
                     do
                     {
+                        recvbit = 1;
                         owmResult = master().OWTouchBitSetLevel(recvbit, OneWireMaster::NormalLevel);
                     }
                     while((owmResult == OneWireMaster::Success) && (!recvbit));
                     
-                    if((owmResult == OneWireMaster::Success) && (recvbit & 1))
+                    if((owmResult == OneWireMaster::Success) && !!recvbit)
                     {
                         deviceResult = this->readScratchPad(scratchPadBuff);
                     }
