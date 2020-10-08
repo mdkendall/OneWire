@@ -95,7 +95,7 @@ DS248x::DS248x()
 OneWireMaster::CmdResult DS248x::begin(uint8_t i2cAdrs)
 {
 	m_adrs = i2cAdrs;
-	Wire.begin();
+	//Wire.begin();
 	OneWireMaster::CmdResult result = OWInitMaster();
 	
 	return result;
