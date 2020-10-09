@@ -224,7 +224,7 @@ OneWireSlave::CmdResult DS18B20::copyScratchPad( void )
 }
 
 /**********************************************************************/
-OneWireSlave::CmdResult DS18B20::convertTemperature(float & temp)
+OneWireSlave::CmdResult DS18B20::convertTemperature(float & temp, void(*busyWait)(void))
 {
     OneWireSlave::CmdResult deviceResult = OneWireSlave::OperationFailure;
     
@@ -246,6 +246,7 @@ OneWireSlave::CmdResult DS18B20::convertTemperature(float & temp)
                     uint8_t recvbit;
                     do
                     {
+                        if (busyWait) busyWait();
                         recvbit = 1;
                         owmResult = master().OWTouchBitSetLevel(recvbit, OneWireMaster::NormalLevel);
                     }
