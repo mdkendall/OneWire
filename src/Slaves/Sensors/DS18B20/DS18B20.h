@@ -176,7 +176,8 @@ namespace OneWire
         *
         * @return CmdResult - result of operation
         **************************************************************/
-        OneWireSlave::CmdResult convertTemperature(float & temp);
+        OneWireSlave::CmdResult convertTemperature(float & temp, void(*busyWait)(void));
+        OneWireSlave::CmdResult convertTemperature(float & temp) { return convertTemperature(temp, NULL); };
         
         
         /**********************************************************//**
